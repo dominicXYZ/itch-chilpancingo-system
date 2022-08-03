@@ -1,0 +1,36 @@
+.full-height{
+    height: 100%;
+}
+html, body, #app, #app>div {
+    height: 100%;
+    background: #fafbfc;
+}
+
+.border-radius{
+    border-radius: 25px;
+}
+
+
+.color-font {
+    color: #505962;
+}
+
+
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+}
+  
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #108ee9;
+}
+  
+#components-layout-demo-custom-trigger .logo {
+    height: 40px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+}
